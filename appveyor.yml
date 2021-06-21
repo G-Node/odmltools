@@ -31,8 +31,8 @@ init:
 build: false
 
 install:
-  - python -m pip install odml xmltodict
+  - python -m pip install odml xmltodict pytest
 
 test_script:
   - python --version
-  - python setup.py test
+  - pytest
